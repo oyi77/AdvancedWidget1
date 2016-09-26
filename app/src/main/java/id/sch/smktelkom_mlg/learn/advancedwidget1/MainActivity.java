@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 String nama = etNama.getText().toString();
                 String umur = etUmur.getText().toString();
 
+                
                 tvhasil.setText(nama + " umur " + umur + " tahun");
             }
         });
